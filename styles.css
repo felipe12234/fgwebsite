@@ -15,7 +15,7 @@ padding: 0;
 
 .logo{
   color: black;
-  font-size: 60px;
+  font-size: 4rem;
   font-family: 'Mukta Mahee';
   font-weight: 700;
   width: fit-content;
@@ -54,13 +54,14 @@ color:#fb0074;
   justify-content: space-between;
   margin-top: 0px;
   transition: background-color 0.3s ease;
-  height: 65px;
+  height: 8%;
   left: 0;
   right: 0;
   align-items: center;
   overflow: hidden;
   margin-top: -10px;
   user-select: none;
+  background-color: aqua;
 }
 
 @media (max-width: 100%) {
@@ -99,10 +100,10 @@ background-color: white;
 }
 
 
- .menu-hamburguer{
+.menu-hamburguer{
  
 
-  height: 15px;
+  height: 1rem;
 
  }
 
