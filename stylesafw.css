@@ -1389,7 +1389,7 @@ margin-left: 30px;
 @media screen and (min-width: 390px) and (min-height: 844px) and (max-width: 390px) and (max-height: 844px) {
 
   .credits{
-    margin-top:50px;
+    margin-top:-50px;
       margin-bottom: 30px;
   }
   .menu-container{
@@ -1451,7 +1451,7 @@ margin-left: 30px;
   @media screen and (min-width: 393px) and (min-height: 851px) and (max-width: 393px) and (max-height: 851px) {
 
     .credits{
-      margin-top: 0px;
+      margin-top: -50px;
         margin-bottom: 30px;
     }
 
@@ -1819,12 +1819,20 @@ margin-left: 30px;
 
 
 }
+@media screen and (min-width: 375px) and (min-height: 667px) and (max-width: 375px) and (max-height: 667px) {
+.credits{
 
+  margin-top: -50px;
+}
+
+
+
+}
 
 @media screen and (min-width: 667px) and (min-height: 375px) and (max-width: 667px) and (max-height: 375px) {
 
   .menu-container{
-  
+  height: auto;
     overflow-y: scroll;
   }
   .logo-container{
@@ -1846,8 +1854,11 @@ margin-left: 30px;
     @media screen and (min-width: 896px) and (min-height: 414px) and (max-width: 896px) and (max-height: 414px) {
   
       .menu-container{
-        
+        height: auto;
         overflow-y: scroll;
+      }
+      .credits{
+        margin-top: 700px;
       }
       
       }
@@ -1855,16 +1866,22 @@ margin-left: 30px;
     @media screen and (min-width: 844px) and (min-height: 390px) and (max-width: 844px) and (max-height: 390px) {
   
         .menu-container{
-          
+          height: auto;
           overflow-y: scroll;
+        }
+        .credits{
+          margin-top: 600px;
         }
         
         }
         @media screen and (min-width: 851px) and (min-height: 393px) and (max-width: 851px) and (max-height: 393px) {
   
           .menu-container{
-            
+            height: auto;
             overflow-y: scroll;
+          }
+          .credits{
+            margin-top: 650px;
           }
           
           }
@@ -1889,6 +1906,9 @@ margin-left: 30px;
             .close-button{
               margin-left: 290px;
             }
+            .credits{
+              margin-top:-100px;
+            }
   
           }
   
@@ -1896,7 +1916,7 @@ margin-left: 30px;
           @media screen and (min-width: 740px) and (min-height: 360px) and (max-width: 740px) and (max-height: 360px) {
   
             .menu-container{
-              
+              height: auto;
               overflow-y: scroll;
             }
             .credits{
@@ -1930,8 +1950,11 @@ margin-left: 30px;
           @media screen and (min-width: 915px) and (min-height: 412px) and (max-width: 915px) and (max-height: 412px) {
   
             .menu-container{
-              
+              height: auto;
               overflow-y: scroll;
+            }
+            .credits{
+              margin-top: 700px;
             }
           }
 
@@ -1964,7 +1987,7 @@ margin-left: 30px;
           @media screen and (min-width: 1180px) and (min-height: 820px) and (max-width: 1180px) and (max-height: 820px) {
 
          .credits{
-          margin-top: 250px;
+          margin-top: 150px;
          }
 
 
@@ -1987,7 +2010,15 @@ margin-left: 30px;
   
             }
           }
-  
+          @media screen and (min-width: 720px) and (min-height: 540px) and (max-width: 720px) and (max-height: 540px) {
+           .menu-container{
+            height: auto;
+            overflow-y: scroll;
+           }
+
+
+
+          }
           @media screen and (min-width: 540px) and (min-height: 720px) and (max-width: 540px) and (max-height: 720px) {
             .menu-container{
               
@@ -2060,7 +2091,7 @@ margin-left: 30px;
   
           @media screen and (min-width: 653px) and (min-height: 280px) and (max-width: 653px) and (max-height: 280px) {
             .menu-container{
-              
+              height: auto;
               overflow-y: scroll;
               
               
@@ -2068,7 +2099,7 @@ margin-left: 30px;
           }
           @media screen and (min-width: 717px) and (min-height: 512px) and (max-width: 717px) and (max-height: 512px) {
             .menu-container{
-              
+              height: auto;
               overflow-y: scroll;
               
               
@@ -2101,7 +2132,7 @@ margin-left: 30px;
           }
           @media screen and (min-width: 914px) and (min-height: 412px) and (max-width: 914px) and (max-height: 412px) {
             .menu-container{
-              
+              height: auto;
               overflow-y: scroll;
               
               
@@ -2113,7 +2144,7 @@ margin-left: 30px;
   
           @media screen and (min-width: 1024px) and (min-height: 600px) and (max-width: 1024px) and (max-height: 600px) {
             .menu-container{
-              
+              height: auto;
               overflow-y: scroll;
               
               
@@ -2180,7 +2211,7 @@ margin-left: 30px;
             }
             .credits-text{
 
-              margin-top: -300px;
+              margin-top: 20px;
             }
   
   
@@ -2211,7 +2242,7 @@ margin-left: 30px;
   
           @media screen and (min-width: 892px) and (min-height: 412px) and (max-width: 892px) and (max-height: 412px) {
             .menu-container{
-              
+              height: auto;
               overflow-y: scroll;
               
             }
